@@ -1,0 +1,50 @@
+# macOS
+.DS_Store
+
+# Local agent configurations & credentials
+.agents/
+.agent/
+*.token
+*.env
+*.env.*
+
+# Python scripts & raw data (not needed for Vercel web hosting)
+*.py
+*.csv
+*.md
+informe-consultas.html
+
+# Binary office documents & archives
+*.docx
+*.pptx
+*.zip
+
+# Python cache & environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.venv
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
