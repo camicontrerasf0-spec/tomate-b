@@ -1,8 +1,0 @@
-{
-  "cleanUrls": true,
-  "rewrites": [
-    { "source": "/", "destination": "/tomate-b/index.html" },
-    { "source": "/tomate-b", "destination": "/tomate-b/index.html" },
-    { "source": "/(.*)", "destination": "/tomate-b/$1" }
-  ]
-}
